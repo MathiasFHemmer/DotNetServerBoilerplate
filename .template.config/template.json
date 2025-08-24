@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Mathias Hemmer",
+  "classifications": [ "Web", "API" ],
+  "identity": "MHemmer.Boilerplate",
+  "name": "MHemmer Boilerplate API",
+  "shortName": "mhemmer-api",
+  "sourceName": "Boilerplate",
+  "preferNameDirectory": true,
+  "symbols": {
+    "ProjectName": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "MyProject",
+      "replaces": "Boilerplate"
+    }
+  }
+}
