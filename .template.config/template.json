@@ -13,6 +13,27 @@
       "datatype": "string",
       "defaultValue": "MyProject",
       "replaces": "Boilerplate"
+    },
+    "ProjectNameLower": {
+      "type": "generated",
+      "generator": "casing",
+      "replaces": "boilerplate",
+      "parameters": {
+        "source": "ProjectName",
+        "toLower": true
+      }
     }
-  }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": 
+          [
+            "**/.git/**"
+          ]
+        }
+      ]
+    }
+  ]
 }
