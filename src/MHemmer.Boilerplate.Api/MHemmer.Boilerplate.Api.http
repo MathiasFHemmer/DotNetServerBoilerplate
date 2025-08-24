@@ -1,0 +1,6 @@
+@MHemmer.Boilerplate.Api_HostAddress = http://localhost:5077
+
+GET {{MHemmer.Boilerplate.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
